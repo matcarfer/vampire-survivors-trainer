@@ -6,9 +6,9 @@
 
 <!-- latest-download -->
 <p align="center">
-  <b>Latest · Última versión: v1.0.0</b> — VampireSurvivors.exe v1.16.111 (Steam)<br>
-  <a href="https://github.com/matcarfer/vampire-survivors-trainer/releases/download/v1.0.0/VampireSurvivors-v1.16.111-Trainer-v1.0.0.exe"><b>⬇ Download · Descargar VampireSurvivors-v1.16.111-Trainer-v1.0.0.exe</b></a><br>
-  <sub>SHA-256 <code>8498AC9D8B08275CF9D066510AF1A3EA1FC1A44F4A4EE6A0A5CEEFB4598AF250</code></sub>
+  <b>Latest · Última versión: v1.0.1</b> — VampireSurvivors.exe v1.16.111 (Steam)<br>
+  <a href="https://github.com/matcarfer/vampire-survivors-trainer/releases/download/v1.0.1/VampireSurvivors-v1.16.111-Trainer-v1.0.1.exe"><b>⬇ Download · Descargar VampireSurvivors-v1.16.111-Trainer-v1.0.1.exe</b></a><br>
+  <sub>SHA-256 <code>1058912D1C22C72D184098B1AFD23F258D6C3F343BCF04B51C4B6570D9B01596</code></sub>
 </p>
 <!-- /latest-download -->
 
@@ -64,8 +64,8 @@ The executable also supports `--verify`, `--diag`, `--cli`, `--lang en|es` and
 
 ## Verify the download / Verificá la descarga
 
-- SHA-256: `8498AC9D8B08275CF9D066510AF1A3EA1FC1A44F4A4EE6A0A5CEEFB4598AF250`
-- PowerShell: `Get-FileHash .\VampireSurvivors-v1.16.111-Trainer-v1.0.0.exe -Algorithm SHA256`
+- SHA-256: `1058912D1C22C72D184098B1AFD23F258D6C3F343BCF04B51C4B6570D9B01596`
+- PowerShell: `Get-FileHash .\VampireSurvivors-v1.16.111-Trainer-v1.0.1.exe -Algorithm SHA256`
 
 Some antivirus engines flag every game trainer because it writes to another
 program's memory. The file is not code-signed: if Windows SmartScreen appears,
