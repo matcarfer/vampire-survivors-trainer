@@ -6,9 +6,9 @@
 
 <!-- latest-download -->
 <p align="center">
-  <b>Latest · Última versión: v1.0.1</b> — VampireSurvivors.exe v1.16.111 (Steam)<br>
-  <a href="https://github.com/matcarfer/vampire-survivors-trainer/releases/download/v1.0.1/VampireSurvivors-v1.16.111-Trainer-v1.0.1.exe"><b>⬇ Download · Descargar VampireSurvivors-v1.16.111-Trainer-v1.0.1.exe</b></a><br>
-  <sub>SHA-256 <code>1058912D1C22C72D184098B1AFD23F258D6C3F343BCF04B51C4B6570D9B01596</code></sub>
+  <b>Latest · Última versión: v1.0.2</b> — VampireSurvivors.exe v1.16.111 (Steam)<br>
+  <a href="https://github.com/matcarfer/vampire-survivors-trainer/releases/download/v1.0.2/VampireSurvivors-v1.16.111-Trainer-v1.0.2.exe"><b>⬇ Download · Descargar VampireSurvivors-v1.16.111-Trainer-v1.0.2.exe</b></a><br>
+  <sub>SHA-256 <code>2AD018DE14965C9EE141511994CCC4270B1E37803099E4F7789FFC8114E8A97D</code></sub>
 </p>
 <!-- /latest-download -->
 
@@ -36,8 +36,8 @@ detectado, su ruta, la versión y el build de Steam.
    Abrí el trainer y después el juego (o al revés).
 3. The header shows **CORRECT EXE** when the process and Steam build match.
    La cabecera muestra **EXE CORRECTO** cuando el proceso y el build coinciden.
-4. Click a card or press its F-key while the game is focused.
-   Hacé clic en una tarjeta o presioná su tecla F con el juego enfocado.
+4. All cards start **OFF**. Click one or press its F-key while the game is focused to turn it on.
+   Todas las tarjetas arrancan **APAGADAS**. Hacé clic en una o presioná su tecla F con el juego enfocado para activarla.
 5. Closing the trainer restores the game's original code.
    Al cerrar el trainer se restaura el código original del juego.
 
@@ -56,16 +56,21 @@ detectado, su ruta, la versión y el build de Steam.
 | F11 | Current XP | XP Actual |
 | F12 | Area | Área |
 
-The executable also supports `--verify`, `--diag`, `--cli`, `--lang en|es` and
-`--help`. El ejecutable también admite `--verify`, `--diag`, `--cli`,
-`--lang en|es` y `--help`.
+The executable also supports `--verify`, `--diag`, `--cli`, `--probe`,
+`--restore`, `--lang en|es` and `--help`. `--probe` shows pointers and stat
+values before/after applying; `--restore` removes a hook left by a trainer that
+was killed before restoring the game code.
+El ejecutable también admite `--verify`, `--diag`, `--cli`, `--probe`,
+`--restore`, `--lang en|es` y `--help`. `--probe` muestra punteros y valores
+antes/después de aplicar; `--restore` quita un hook huérfano de un trainer que
+fue matado antes de restaurar el código del juego.
 
 ---
 
 ## Verify the download / Verificá la descarga
 
-- SHA-256: `1058912D1C22C72D184098B1AFD23F258D6C3F343BCF04B51C4B6570D9B01596`
-- PowerShell: `Get-FileHash .\VampireSurvivors-v1.16.111-Trainer-v1.0.1.exe -Algorithm SHA256`
+- SHA-256: `2AD018DE14965C9EE141511994CCC4270B1E37803099E4F7789FFC8114E8A97D`
+- PowerShell: `Get-FileHash .\VampireSurvivors-v1.16.111-Trainer-v1.0.2.exe -Algorithm SHA256`
 
 Some antivirus engines flag every game trainer because it writes to another
 program's memory. The file is not code-signed: if Windows SmartScreen appears,
